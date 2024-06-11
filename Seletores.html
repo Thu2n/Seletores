@@ -1,0 +1,41 @@
+<!--
+1. Implemente um código CSS para mudar as cores dos links de uma página. A cor padrão do link deverá ser vermelha (red) 
+e deverá mudar para limão (lemon) quando sobreposta pelo mouse.
+
+2. Implemente um código CSS que irá customizar os parágrafos da seguinte forma: 
+Parágrafos em geral terão a fonte Arial.
+Parágrafos declarados logo após h1 ficarão em negrito.
+
+3. Implemente um código CSS para estilizar a classe '.destaque' da seguinte forma:
+Por padrão, utilizará a fonte Arial.
+Se atribuída a um parágrafo, ficará em negrito.
+Se atribuída a um <strong> , ficará em <vermelho!-->
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Exercicios Seletores</title>
+            <link href="seletores.css" rel="Stylesheet"
+        </head>
+        <body>
+
+            <h1 class="destaque">Titulo da página</h1>
+            <p>
+                Esse parágrafo é o resumo do conteudo da página HTML.
+                Por este motivo ele possui estilo diferente aos demais parágrafos.
+                Para mais informações, <a href="http://www.google.com">Clique aqui!!</a>
+            </p>
+            <p class="destaque">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Excepturi consectetur deserunt ullam</strong>, quam esse libero tenetur natus! Obcaecati incidunt facere eos earum laborum quidem repudiandae, velit veritatis ad, iusto culpa.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem ut magni velit. Obcaecati mollitia corporis, alias nemo consequuntur vel eaque molestiae cupiditate quam tenetur quibusdam quod laudantium cumque sint!
+            </p>
+
+           <div>
+                Tesxto de exemplo, <strong class="destaque">destaque para o texto!</strong>
+           </div>
+
+
+        </body>
+    </html>
